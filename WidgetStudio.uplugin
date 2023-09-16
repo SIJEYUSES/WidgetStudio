@@ -1,0 +1,46 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.6",
+	"FriendlyName": "Widget Studio",
+	"Description": "Widget Studio is an Unreal Engine plugin that streamlines the user interface creation experience.",
+	"Category": "Theia",
+	"CreatedBy": "Theia Interactive Inc.",
+	"CreatedByURL": "https://widgetstudio.design",
+	"DocsURL": "https://docs.widgetstudio.design",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/53e65eda8cf343bd89af9017a91ba818",
+	"SupportURL": "mailto:marketplace@theia.io",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "WidgetStudioRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64",
+				"Android",
+				"IOS",
+				"Mac"
+			]
+		},
+		{
+			"Name": "WidgetStudioEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64",
+				"Android",
+				"IOS",
+				"Mac"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		}
+	]
+}
