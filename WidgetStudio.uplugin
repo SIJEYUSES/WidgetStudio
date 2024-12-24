@@ -10,7 +10,6 @@
 	"DocsURL": "https://docs.widgetstudio.design",
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/53e65eda8cf343bd89af9017a91ba818",
 	"SupportURL": "mailto:marketplace@theia.io",
-	"EngineVersion": "5.2.0",
 	"CanContainContent": true,
 	"Installed": true,
 	"Modules": [
